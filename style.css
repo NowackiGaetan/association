@@ -14,4 +14,25 @@ h1 {
   color: #3c49bf;
   font-family: "impact", sans-serif;
   padding-right: 45px;
+  font-size: 3em;
+}
+
+.navbar {
+  background: #3c49bf;
+}
+
+.collapse {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.collapse a {
+  color: rgb(225, 225, 225);
+  font-size: 2em;
+  font-family: "Impact", sans-serif;
+}
+
+.nav-link:hover {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
