@@ -32,12 +32,11 @@ h1 {
   align-items: center;
 }
 
-.collapse a {
+.nav-link {
   color: rgb(225, 225, 225);
   font-size: 2em;
   font-family: "Impact", sans-serif;
 }
-
 .nav-link:hover {
   color: white;
 }
@@ -91,7 +90,20 @@ p {
   text-decoration: none;
   color: #d8d7d0;
 }
-
 .btn-top:hover {
   color: white;
+}
+
+/*-----------------PHOTO VILLE-------------------*/
+.bloc-photo {
+  padding-top: 100px;
+}
+
+.photo-ville {
+  width: 350px;
+}
+
+h3 {
+  color: #3c49bf;
+  padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */
