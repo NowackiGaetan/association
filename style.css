@@ -1,0 +1,17 @@
+/*HEADER*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 180px;
+}
+
+h1 {
+  color: #3c49bf;
+  font-family: "impact", sans-serif;
+  padding-right: 45px;
+}/*# sourceMappingURL=style.css.map */
