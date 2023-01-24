@@ -1,4 +1,8 @@
-/*HEADER*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*-------------------HEADER---------------*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +19,7 @@ h1 {
   font-family: "impact", sans-serif;
   padding-right: 45px;
   font-size: 3em;
+  text-shadow: 2px 2px 0 grey;
 }
 
 .navbar {
@@ -34,5 +39,59 @@ h1 {
 }
 
 .nav-link:hover {
+  color: white;
+}
+
+/*----------------BLOC PRESENTATION---------------*/
+.photo-marathon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  height: auto;
+}
+
+.marathon {
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+
+.presentation {
+  margin: 50px;
+  background: #d8d7d0;
+  border-radius: 15px;
+  height: 250px;
+}
+
+h4, p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+p {
+  padding: 25px;
+}
+
+/*----------------------FLECHE BACK-TO-TOP-----------------*/
+.back-to-top {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-top {
+  background: #3c49bf;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #d8d7d0;
+}
+
+.btn-top:hover {
   color: white;
 }/*# sourceMappingURL=style.css.map */
