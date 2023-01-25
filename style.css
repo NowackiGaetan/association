@@ -55,11 +55,11 @@ h1 {
   padding-bottom: 50px;
 }
 
-.presentation {
+.bloc-texte {
   margin: 50px;
   background: #d8d7d0;
   border-radius: 15px;
-  height: 250px;
+  height: auto;
 }
 
 h4, p {
@@ -77,6 +77,54 @@ p {
   padding: 25px;
 }
 
+.logo-color {
+  width: 200px;
+}
+
+.geste, .img-fauteuil img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-family: Impact, sans-serif;
+  color: #3c49bf;
+  font-size: 2em;
+}
+
+.button-participation {
+  background: #3c49bf;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #d8d7d0;
+}
+.button-participation:hover {
+  color: white;
+}
+
+/*---------------------PORTRAIT---------------------------*/
+.portrait {
+  margin-top: 100px;
+}
+
+.bloc-portrait {
+  background: #3c49bf;
+  color: white;
+  border-radius: 15px;
+  height: auto;
+  margin-top: 140px;
+}
+
+.text-portrait {
+  text-align: left;
+}
+
+.text-portrait-1 {
+  margin-top: 100px;
+}
+
 /*----------------------FLECHE BACK-TO-TOP-----------------*/
 .back-to-top {
   display: flex;
@@ -84,16 +132,19 @@ p {
 }
 
 .btn-top {
+  margin-top: 100px;
   background: #3c49bf;
   padding: 10px;
   border-radius: 15px;
   text-decoration: none;
   color: #d8d7d0;
+  border: 2px solid black;
 }
 .btn-top:hover {
   color: white;
 }
 
+/*---------------PAGE COURSES--------------------*/
 /*-----------------PHOTO VILLE-------------------*/
 .bloc-photo {
   padding-top: 100px;
