@@ -22,6 +22,10 @@ h1 {
   text-shadow: 2px 2px 0 grey;
 }
 
+h5 {
+  text-shadow: 2px 2px 0 grey;
+}
+
 .navbar {
   background: #3c49bf;
 }
@@ -36,6 +40,7 @@ h1 {
   color: rgb(225, 225, 225);
   font-size: 2em;
   font-family: "Impact", sans-serif;
+  text-shadow: 2px 2px 0 grey;
 }
 .nav-link:hover {
   color: white;
@@ -77,6 +82,7 @@ p {
   padding: 25px;
 }
 
+/*------------------------PARTICIPATION----------------*/
 .logo-color {
   width: 200px;
 }
@@ -96,7 +102,7 @@ h5 {
 .button-participation {
   background: #3c49bf;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 50px;
   text-decoration: none;
   color: #d8d7d0;
 }
@@ -135,7 +141,7 @@ h5 {
   margin-top: 100px;
   background: #3c49bf;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 50px;
   text-decoration: none;
   color: #d8d7d0;
   border: 2px solid black;
@@ -145,6 +151,20 @@ h5 {
 }
 
 /*---------------PAGE COURSES--------------------*/
+.evenement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3c49bf;
+  padding: 100px;
+}
+
+h2 {
+  font-family: impact, sans-serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 0 grey;
+}
+
 /*-----------------PHOTO VILLE-------------------*/
 .bloc-photo {
   padding-top: 100px;
@@ -157,4 +177,109 @@ h5 {
 h3 {
   color: #3c49bf;
   padding-top: 15px;
+}
+
+.date {
+  color: #3c49bf;
+}
+
+.text-ville {
+  font-size: 0.9em;
+}
+
+/*-----------------RUN SANTA------------------------*/
+.santa-run {
+  padding-top: 25px;
+}
+
+.text-santa {
+  background: #3c49bf;
+  color: white;
+  border-radius: 15px;
+  height: auto;
+}
+
+.santa-runner {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.pr-santa {
+  padding-top: 5px;
+}
+
+/*-----------------------PAGE CONTACT--------------*/
+.titre-contact {
+  color: black;
+  font-size: 1em;
+}
+
+.formulaire {
+  background: #d8d7d0;
+  font-family: impact, sans-serif;
+  color: white;
+  font-size: 2em;
+  border-radius: 15px;
+  height: auto;
+  margin-top: 140px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.firstname, .name, .email {
+  border: none;
+  background: #d8d7d0;
+}
+
+.name::-moz-placeholder, .firstname::-moz-placeholder, .email::-moz-placeholder, .demande::-moz-placeholder {
+  color: white;
+  text-shadow: 2px 2px 0 grey;
+}
+
+.name:-ms-input-placeholder, .firstname:-ms-input-placeholder, .email:-ms-input-placeholder, .demande:-ms-input-placeholder {
+  color: white;
+  text-shadow: 2px 2px 0 grey;
+}
+
+.name::placeholder, .firstname::placeholder, .email::placeholder, .demande::placeholder {
+  color: white;
+  text-shadow: 2px 2px 0 grey;
+}
+
+#name, #firstname, #email, #floatingTextarea {
+  color: white;
+  text-shadow: 2px 2px 0 grey;
+}
+
+.champ {
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+.demande {
+  width: 75%;
+  border-radius: 15px;
+  background: #d8d7d0;
+  border: none;
+  color: white;
+}
+
+.btn-envoi {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-envoyer {
+  background: #3c49bf;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #dfdfdf;
+  width: 150px;
+  font-size: 1em;
+  text-shadow: 2px 2px 0 grey;
+}
+.btn-envoyer:hover {
+  color: white;
+  background: #3c49bf;
 }/*# sourceMappingURL=style.css.map */

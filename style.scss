@@ -1,0 +1,294 @@
+html {
+    scroll-behavior: smooth;
+}
+
+$mypurple:#3c49bf;
+$myshadow: 2px 2px 0 grey;
+
+/*-------------------HEADER---------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 180px;
+}
+
+h1{
+    color:$mypurple;
+    font-family: "impact", sans-serif;
+    padding-right: 45px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0 grey;
+}
+
+h5{
+    text-shadow: $myshadow;
+}
+
+.navbar{
+    background: $mypurple;   
+}
+
+.collapse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    color: rgb(225, 225, 225);
+    font-size: 2em;
+    font-family: "Impact", sans-serif;
+    text-shadow: $myshadow;
+    &:hover{
+        color: white;
+    }
+}
+
+/*----------------BLOC PRESENTATION---------------*/
+
+.photo-marathon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: auto;
+}
+
+.marathon{
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+.bloc-texte{
+    margin: 50px;
+    background: #d8d7d0;
+    border-radius: 15px;
+    height: auto;
+}
+
+h4, p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h4{
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+p{
+    padding: 25px;
+}
+
+/*------------------------PARTICIPATION----------------*/
+
+.logo-color{
+    width: 200px;
+}
+
+.geste,.img-fauteuil img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    font-family: Impact, sans-serif;
+    color: $mypurple;
+    font-size: 2em;
+}
+
+.button-participation{
+    background: $mypurple;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #d8d7d0;
+    &:hover{
+        color: white;
+    }
+}
+
+/*---------------------PORTRAIT---------------------------*/
+
+.portrait{
+    margin-top: 100px;
+}
+
+.bloc-portrait{
+    background: $mypurple;
+    color: white;
+    border-radius: 15px;
+    height: auto;
+    margin-top: 140px;
+}
+
+.text-portrait{
+    text-align: left;
+}
+.text-portrait-1{
+    margin-top: 100px;
+}
+
+/*----------------------FLECHE BACK-TO-TOP-----------------*/
+
+.back-to-top{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-top{
+    margin-top: 100px;
+    background: $mypurple;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #d8d7d0;
+    border: 2px solid black;
+    &:hover{
+        color: white;
+    }
+}
+
+
+
+
+/*---------------PAGE COURSES--------------------*/
+
+
+.evenement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$mypurple;
+    padding: 100px;
+}
+
+h2{
+    font-family: impact, sans-serif;
+    font-size: 3em;
+    text-shadow:$myshadow;
+}
+
+/*-----------------PHOTO VILLE-------------------*/
+
+.bloc-photo{
+    padding-top: 100px;
+}
+
+.photo-ville{
+    width: 350px;
+}
+
+h3{
+    color: $mypurple;
+    padding-top: 15px;
+}
+
+.date{
+    color: $mypurple;
+}
+
+.text-ville{
+    font-size: 0.9em;
+}
+/*-----------------RUN SANTA------------------------*/
+
+.santa-run{
+    padding-top: 25px;
+}
+
+.text-santa{
+    background: $mypurple;
+    color: white;
+    border-radius: 15px;
+    height: auto;
+}
+
+.santa-runner{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.pr-santa{
+    padding-top: 5px;
+}
+
+/*-----------------------PAGE CONTACT--------------*/
+
+$mygrey:#d8d7d0;
+
+.titre-contact{
+    color: black;
+    font-size: 1em;
+}
+
+.formulaire{
+    background: $mygrey;
+    font-family: impact , sans-serif;
+    color: white;
+    font-size: 2em;
+    border-radius: 15px;
+    height: auto;
+    margin-top: 140px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.firstname, .name, .email{
+    border: none;
+    background: $mygrey;
+}
+
+.name::placeholder, .firstname::placeholder, .email::placeholder, .demande::placeholder{
+    color: white;
+    text-shadow:$myshadow;
+}
+
+
+
+#name, #firstname, #email,#floatingTextarea{
+    color: white;
+    text-shadow: $myshadow;
+}
+
+
+.champ{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.demande{
+    width: 75%;
+    border-radius: 15px;
+    background: #d8d7d0;
+    border: none;
+    color: white;
+}
+
+
+.btn-envoi{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.btn-envoyer{
+    background: $mypurple;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #dfdfdf;
+    width: 150px;
+    font-size: 1em;
+    text-shadow: $myshadow;
+    &:hover{
+        color: white;
+        background: $mypurple;
+    }
+}
