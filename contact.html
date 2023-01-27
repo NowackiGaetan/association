@@ -22,33 +22,35 @@
             </div>
         </nav>
     </header>
-    <div class="formulaire">
-        <div class="col-12 text-center bloc-formulaire">
-            <h2 class="titre-contact">AFIN DE NOUS CONTACTER, VEUILLEZ REMPLIR CE FORMULAIRE</h2>
+    <div class="container-form">
+        <div class="formulaire">
+            <div class="col-12 text-center bloc-formulaire">
+                <h2 class="titre-contact">AFIN DE NOUS CONTACTER, VEUILLEZ REMPLIR CE FORMULAIRE</h2>
+            </div>
+            <form>
+                <div class="mb-3 champ">
+                    <label for="name" class="visually-hidden" ></label>
+                    <input type="text" class="name" id="name"  placeholder="Nom">
+                </div>
+                <div class="mb-3 champ">
+                    <label for="firstname" class="visually-hidden" ></label>
+                    <input type="text" class="firstname" id="firstname"  placeholder="Prénom">
+                </div>
+                <div class="mb-3 champ">
+                    <label for="email" class="visually-hidden"></label>
+                    <input type="email" class="email" id="email"  placeholder="Email">
+                </div>
+                <div class="mb-3 champ">
+                    <div class="form-floating">
+                        <textarea class="demande" id="floatingTextarea" style="height: 100px" placeholder="Votre demande" ></textarea>
+                        <label for="floatingTextarea" class="text-placeholder"></label>
+                    </div>
+                </div>
+                <div class="text-center btn-envoi">
+                        <button type="button" class="btn btn-lg btn-envoyer">Envoyer</button>
+                </div>
+            </form>
         </div>
-        <form>
-            <div class="mb-3 champ">
-                <label for="name" class="visually-hidden" ></label>
-                <input type="text" class="name" id="name"  placeholder="Nom">
-              </div>
-            <div class="mb-3 champ">
-                <label for="firstname" class="visually-hidden" ></label>
-                <input type="text" class="firstname" id="firstname"  placeholder="Prénom">
-              </div>
-              <div class="mb-3 champ">
-                <label for="email" class="visually-hidden"></label>
-                <input type="email" class="email" id="email"  placeholder="Email">
-              </div>
-              <div class="mb-3 champ">
-                <div class="form-floating">
-                    <textarea class="demande" id="floatingTextarea" style="height: 100px" placeholder="Votre demande" ></textarea>
-                    <label for="floatingTextarea" class="text-placeholder"></label>
-                  </div>
-              </div>
-              <div class="text-center btn-envoi">
-                    <button type="button" class="btn btn-lg btn-envoyer">Envoyer</button>
-              </div>
-          </form>
     </div>
     <div class="back-to-top">
         <a href="#top" class="btn-top">Retour en haut ↑</a>

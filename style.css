@@ -1,9 +1,9 @@
-html {
-  scroll-behavior: smooth;
-}
-
+/*html {
+    scroll-behavior: smooth;
+}*/
 body {
   background: linear-gradient(#e6e6e6, #3c49bf);
+  width: 100%;
 }
 
 /*-------------------HEADER---------------*/
@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .logo {
@@ -64,6 +65,7 @@ h5 {
 .marathon {
   border-radius: 15px;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 .bloc-texte {
@@ -122,19 +124,22 @@ h5 {
 }
 
 .bloc-portrait {
-  background: #3c49bf;
-  color: white;
+  background: #d8d7d0;
+  color: #3c49bf;
   border-radius: 15px;
   height: auto;
   margin-top: 140px;
 }
 
-.text-portrait {
+.text-portrait-2 {
   text-align: left;
+  color: #3c49bf;
+  font-weight: bold;
 }
 
 .text-portrait-1 {
   margin-top: 100px;
+  font-weight: bold;
 }
 
 /*----------------------FLECHE BACK-TO-TOP-----------------*/
@@ -199,8 +204,8 @@ h3 {
 }
 
 .text-santa {
-  background: #3c49bf;
-  color: white;
+  background: #e6e6e6;
+  color: #3c49bf;
   border-radius: 15px;
   height: auto;
 }
@@ -215,6 +220,12 @@ h3 {
 }
 
 /*-----------------------PAGE CONTACT--------------*/
+.container-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .formulaire {
   width: 75%;
 }
@@ -296,7 +307,7 @@ h3 {
 
 /*--------------MEDIA QUERIES-------------*/
 @media screen and (max-width: 1200px) {
-  body {
+  #top {
     width: 100%;
   }
   .img-fauteuil {
@@ -324,5 +335,54 @@ h3 {
   }
   .portrait div {
     margin-top: 15px;
+  }
+  .photo-portrait {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header h1 {
+    text-align: end;
+  }
+  .bloc-texte {
+    margin-top: 10px;
+  }
+  .text-portrait-1 {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 1.5em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .nav-link {
+    font-size: 1.5em;
+  }
+  .bloc-text-portrait {
+    width: 100%;
+  }
+  .text-portrait-1 {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 2em;
+  }
+  .nav-link {
+    font-size: 1em;
+  }
+  .bloc-texte {
+    margin-top: 0;
+  }
+  .bloc-text-portrait {
+    width: 100%;
+  }
+  .text-portrait-1 {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
