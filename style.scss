@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background: linear-gradient(#e6e6e6, #3c49bf);
+}
+
 $mypurple:#3c49bf;
 $myshadow: 2px 2px 0 grey;
 
@@ -30,13 +34,15 @@ h5{
 }
 
 .navbar{
-    background: $mypurple;   
+    background: $mypurple;
+    width: 100%;   
 }
 
 .collapse{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .nav-link{
@@ -224,6 +230,10 @@ h3{
 
 $mygrey:#d8d7d0;
 
+.formulaire{
+    width: 75%;
+}
+
 .titre-contact{
     color: black;
     font-size: 1em;
@@ -291,4 +301,41 @@ $mygrey:#d8d7d0;
         color: white;
         background: $mypurple;
     }
+}
+
+
+/*--------------MEDIA QUERIES-------------*/
+
+@media screen and(max-width: 1200px){
+    body{
+        width:100%;
+    }
+    .img-fauteuil{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bloc-participation{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bloc-logo-color{
+        display: flex;
+        justify-content: center;
+    } 
+    .logo-color{
+        width: 250px;
+    } 
+    .portrait{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .portrait div{
+        margin-top: 15px;
+    }
+
+
 }
