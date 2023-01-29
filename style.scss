@@ -1,10 +1,12 @@
-/*html {
+html{
     scroll-behavior: smooth;
-}*/
+}
 
 body{
     background: linear-gradient(#e6e6e6, #3c49bf);
     width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 $mypurple:#3c49bf;
@@ -136,7 +138,7 @@ h5{
     color: #3c49bf;
     border-radius: 15px;
     height: auto;
-    margin-top: 140px;
+    margin-top: 130px;
 }
 
 .text-portrait-2{
@@ -226,7 +228,7 @@ h3{
 
 .santa-runner{
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .pr-santa{
@@ -245,6 +247,10 @@ $mygrey:#d8d7d0;
 
 .formulaire{
     width: 75%;
+}
+
+form{
+    text-align: left;
 }
 
 .titre-contact{
@@ -308,7 +314,7 @@ $mygrey:#d8d7d0;
     text-decoration: none;
     color: #dfdfdf;
     width: 150px;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-shadow: $myshadow;
     &:hover{
         color: white;
@@ -318,8 +324,28 @@ $mygrey:#d8d7d0;
 
 
 /*--------------MEDIA QUERIES-------------*/
+@media screen and(max-width:1560px) and (min-width:1400px){
+    .photo-marathonienne{
+        width: auto;
+        height: auto;
+        margin-bottom: 0;
+    }   
+}
+
+@media screen and(max-width:1399px)and(min-width:1025px) {
+    .photo-marathonienne{
+        width: 400px;
+        height: auto;
+    }
+    .bloc-portrait{
+        margin-top: 0;
+    }  
+}
 
 @media screen and(max-width: 1200px){
+    body{
+        width: 100%;
+    }
     #top{
         width: 100%;
     }
@@ -353,6 +379,9 @@ $mygrey:#d8d7d0;
         display: flex;
         justify-content: center;
     }
+    .text-portrait-1{
+        margin-top:15px;
+}
 }
 
 @media screen and(max-width: 1024px){
@@ -362,13 +391,6 @@ $mygrey:#d8d7d0;
     .bloc-texte{
         margin-top: 10px;
     }
-    .text-portrait-1{
-        margin-top:25px;
-   }
-
-}
-
-@media screen and(max-width: 900px){
     body{
         font-size: 1.5em;
     }
@@ -381,15 +403,25 @@ $mygrey:#d8d7d0;
     .bloc-text-portrait{
         width: 100%;
     }
-    
    .text-portrait-1{
          margin-top:0;
     }
+    .santa-run{
+        display: block;
+    }
+    .titre-contact, .champ{
+        font-size: 0.7em;   
+    }
+
 }
 
 @media screen and(max-width: 720px){
     h1{
-        font-size: 2em;
+        font-size: 1.2em;
+    }
+    .logo{
+        width: 125px;
+        height: 100px;
     }
     .nav-link{
         font-size: 1em;
@@ -402,5 +434,29 @@ $mygrey:#d8d7d0;
     }
     .text-portrait-1{
         margin-top: 20px;
+    }
+    .photo-marathonienne{
+        width:320px ;
+        height:480px ;
+    }
+    .titre-contact, .champ{
+        font-size: 0.5em;   
+    }
+}
+
+@media screen and(max-width: 480px) {
+    .nav-link{
+        font-size: 0.8em;
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    .logo-color{
+        width: 175px;
+        height: 175px;
+    }
+    .portrait{
+        margin: auto;
     }
 }
